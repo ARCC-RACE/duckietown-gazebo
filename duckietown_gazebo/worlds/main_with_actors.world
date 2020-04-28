@@ -124,6 +124,39 @@
       </script>
     </actor>
 
+    <actor name="actor2">
+      <skin>
+        <filename>model://people/walk.dae</filename>
+      </skin>
+      <animation name="animation">
+        <filename>model://people/walk.dae</filename>
+      </animation>
+      <script>
+        <trajectory id="0" type="walking">
+          <waypoint>
+            <time>0</time>
+            <pose>-5 4 1.1 0 0 0</pose>
+          </waypoint>
+          <waypoint>
+            <time>12</time>
+            <pose>5 4 1.1 0 0 0</pose>
+          </waypoint>
+          <waypoint>
+            <time>12.5</time>
+            <pose>5 4 1.1 0 0 3.14</pose>
+          </waypoint>
+          <waypoint>
+            <time>24.5</time>
+            <pose>-5 4 1.1 0 0 3.14</pose>
+          </waypoint>
+          <waypoint>
+            <time>25</time>
+            <pose>-5 4 1.1 0 0 0</pose>
+          </waypoint>
+        </trajectory>
+      </script>
+    </actor>
+
     <model name='road_plane_3'>
       <static>1</static>
       <link name='link'>
