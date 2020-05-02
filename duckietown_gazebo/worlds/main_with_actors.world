@@ -102,23 +102,23 @@
         <trajectory id="0" type="walking">
           <waypoint>
             <time>0</time>
-            <pose>5 3 1.1 0 0 3.14</pose>
+            <pose>5 2 1.1 0 0 3.14</pose>
           </waypoint>
           <waypoint>
             <time>12</time>
-            <pose>-5 3 1.1 0 0 3.14</pose>
+            <pose>-5 2 1.1 0 0 3.14</pose>
           </waypoint>
           <waypoint>
             <time>12.5</time>
-            <pose>-5 3 1.1 0 0 0</pose>
+            <pose>-5 2 1.1 0 0 0</pose>
           </waypoint>
           <waypoint>
             <time>24.5</time>
-            <pose>5 3 1.1 0 0 0</pose>
+            <pose>5 2 1.1 0 0 0</pose>
           </waypoint>
           <waypoint>
             <time>25</time>
-            <pose>5 3 1.1 0 0 3.14</pose>
+            <pose>5 2 1.1 0 0 3.14</pose>
           </waypoint>
         </trajectory>
       </script>
@@ -135,23 +135,23 @@
         <trajectory id="0" type="walking">
           <waypoint>
             <time>0</time>
-            <pose>-5 4 1.1 0 0 0</pose>
+            <pose>-5 5 1.1 0 0 0</pose>
           </waypoint>
           <waypoint>
             <time>12</time>
-            <pose>5 4 1.1 0 0 0</pose>
+            <pose>5 5 1.1 0 0 0</pose>
           </waypoint>
           <waypoint>
             <time>12.5</time>
-            <pose>5 4 1.1 0 0 3.14</pose>
+            <pose>5 5 1.1 0 0 3.14</pose>
           </waypoint>
           <waypoint>
             <time>24.5</time>
-            <pose>-5 4 1.1 0 0 3.14</pose>
+            <pose>-5 5 1.1 0 0 3.14</pose>
           </waypoint>
           <waypoint>
             <time>25</time>
-            <pose>-5 4 1.1 0 0 0</pose>
+            <pose>-5 5 1.1 0 0 0</pose>
           </waypoint>
         </trajectory>
       </script>
