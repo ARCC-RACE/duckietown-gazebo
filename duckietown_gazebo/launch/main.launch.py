@@ -9,7 +9,6 @@ from launch.actions import ExecuteProcess
 from launch.substitutions import LaunchConfiguration
 from launch.actions import DeclareLaunchArgument
 
-# export GAZEBO_MODEL_PATH=$GAZEBO_MODEL_PATH:/home/michael/Github/br_core/ws/install/duckietown_gazebo/share/duckietown_gazebo/models
 
 def generate_launch_description():
     # launch paths
