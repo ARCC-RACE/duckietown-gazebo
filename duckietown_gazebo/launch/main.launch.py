@@ -15,7 +15,10 @@ def generate_launch_description():
     duckietown_dir = get_package_share_directory('duckietown_gazebo')
 
     # export models path
-    os.environ['GAZEBO_MODEL_PATH'] = os.getenv('GAZEBO_MODEL_PATH') + ":" + duckietown_dir + "/models"
+    if os.getenv('GAZEBO_MODEL_PATH') is not None:
+        os.environ['GAZEBO_MODEL_PATH'] = os.getenv('GAZEBO_MODEL_PATH') + ":" + duckietown_dir + "/models"
+    else:
+        os.environ['GAZEBO_MODEL_PATH'] = duckietown_dir + "/models"
 
     world = LaunchConfiguration('world')
 
